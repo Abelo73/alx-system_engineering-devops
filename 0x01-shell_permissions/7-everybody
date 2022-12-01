@@ -1,2 +1,2 @@
 #!/bin/bash
-chmo 640 hello
+chmod 640 hello
