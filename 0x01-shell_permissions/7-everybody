@@ -1,2 +1,2 @@
 #!/bin/bash
-chmo 555 hello
+chmo 640 hello
