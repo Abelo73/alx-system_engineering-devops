@@ -1,6 +1,6 @@
-ng Apache returning a 500 error
+# Fix 500 error when a GET HTTP method is requested to Apache web server
 
-exec { 'fix error':
-  provider => 'shell',
+exec {'replace':
+  provider => shell,
   command  => 'sed -i "s/phpp/php/g" /var/www/html/wp-settings.php'
 }
